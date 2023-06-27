@@ -12,6 +12,6 @@ public class Point {
         return new Point(x, y);
     }
     public int distance(Point point){
-        return (int) Math.abs(x - point.x) + Math.abs(y - point.y);
+        return Math.abs(x - point.x) + Math.abs(y - point.y);
     }
 }
